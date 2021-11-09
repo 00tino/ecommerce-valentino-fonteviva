@@ -1,0 +1,61 @@
+.NavBar-div {
+   background-color: rgba(184, 122, 255, 0.863);
+   display: flex;
+   justify-content: center;
+
+}
+
+.NavBar-div button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.NavBar-div button :focus,
+.NavBar-div button :hover {
+    background-color: #fff1f1;
+    transition: 0.25s;
+    border-radius: 100%;
+    opacity: 85%;
+
+}
+
+
+.NavBar-div img {
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+
+.NavBar-div ul {
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar-div li {
+    padding-right: 2rem;
+    font-size: 2.3rem;
+    align-items: center;
+}
+.NavBar-div li :hover,
+.NavBar-div li :focus {
+    color: #fff1f1;
+    transition: 0.25s;
+    opacity: 85%;
+}
+
+a:-webkit-any-link {
+    color: currentColor;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+
