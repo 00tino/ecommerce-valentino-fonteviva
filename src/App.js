@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar />
-      <ItemListContainer />
+      <NavBar />import moduleName from 'module'
+      <ItemListContainer saludo= ":D" />
     </div>
   );
 }
